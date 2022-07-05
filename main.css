@@ -1,0 +1,191 @@
+:root {
+    --dark: #374151;
+    --darker: #1f2937;
+    --darkest: #111827;
+    --gray: #6b7280;
+    --light: #EEE;
+    --pink: #ec4899;
+    --purple: #8b5cf6;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Fira sans", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--dark);
+    color: #FFF;
+  }
+  
+  
+  header {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+input, button {
+    background-color: none;
+    border: none;
+    padding: none;
+    text-align: center;
+    margin: none none;
+}
+
+#D4 {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), 
+    var(--purple));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#D4in {
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.25rem;
+}
+
+#D4in::placeholder {
+    color: var(--gray);
+}
+
+#D6 {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), 
+    var(--purple));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#D6in {
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.25rem;
+}
+
+#D6in::placeholder {
+    color: var(--gray);
+}
+
+#D8 {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), 
+    var(--purple));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#D8in {
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.25rem;
+}
+
+#D8in::placeholder {
+    color: var(--gray);
+}
+
+#D10 {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), 
+    var(--purple));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#D10in {
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.25rem;
+}
+
+#D10in::placeholder {
+    color: var(--gray);
+}
+
+#D12 {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), 
+    var(--purple));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#D12in {
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.25rem;
+}
+
+#D12in::placeholder {
+    color: var(--gray);
+}
+
+#D20 {
+    color: var(--pink);
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-image: linear-gradient(to right, var(--pink), 
+    var(--purple));
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#D20in {
+    flex: 1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.25rem;
+}
+
+#D20in::placeholder {
+    color: var(--gray);
+}
+#D20::readonly{:read-only}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Buttons</title>
+
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <header>
+        <button type="button"><img src="D4.jpg" height = "80" width = "80" id="D4" onclick="D4roll();"/></button>
+                <input
+                    type="text"
+                    id="D4in"
+                    onclick="D4roll();"
+                    readonly="readonly"
+                    placeholder="1-4" />
+                    
+                    <script>
+                        function D4roll() {
+                        const D4number = Math.trunc(Math.random() * 4) + 1;
+                        document.getElementById('D4in').value = D4number;
+                    }
+                    </script>
+
+                    <br>
+
+        <button type="button"><img src="D6.jpg" height = "80" width = "80" id="D6" onclick="D6roll();"/></button>
+                <input
+                    type="text"
+                    id="D6in"
+                    readonly="readonly"
+                    placeholder="1-6" />
+
+                    <script>
+                        function D6roll() {
+                        const D6number = Math.trunc(Math.random() * 6) + 1;
+                        document.getElementById('D6in').value = D6number;
+                    }
+                    </script>
+
+                    <br>
+
+        <button type="button"><img src="D8.jpg" height = "80" width = "80" id="D8" onclick="D8roll();"/></button>
+                <input
+                    type="text"
+                    id="D8in"
+                    readonly="readonly"
+                    placeholder="1-8" /> 
+
+                    <script>
+                        function D8roll() {
+                        const D8number = Math.trunc(Math.random() * 8) + 1;
+                        document.getElementById('D8in').value = D8number;
+                    }
+                    </script>
+                    
+                    <br>
+                    
+        <button type="button"><img src="D10.jpg" height = "80" width = "80" id="D10" onclick="D10roll();"/></button>
+                <input
+                    type="text"
+                    id="D10in"
+                    readonly="readonly"
+                    placeholder="1-10" />
+
+                    <script>
+                        function D10roll() {
+                        const D10number = Math.trunc(Math.random() * 6) + 1;
+                        document.getElementById('D10in').value = D10number;
+                    }
+                    </script>
+
+                    <br>
+
+         <button type="button"><img src="D12.jpg" height = "80" width = "80" id="D12" onclick="D12roll();"/></button>
+                <input
+                    type="text"
+                    id="D12in"
+                    readonly="readonly"
+                    placeholder="1-12" />
+
+                    <script>
+                        function D12roll() {
+                        const D12number = Math.trunc(Math.random() * 12) + 1;
+                        document.getElementById('D12in').value = D12number;
+                    }
+                    </script>
+
+                    <br>
+
+        <button type="button"><img src="D20.jpg" height = "80" width = "80" id="D20" onclick="D20roll();"/></button>
+                <input
+                    type="text"
+                    id="D20in"
+                    readonly="readonly"
+                    placeholder="1-20" />
+
+                    <script>
+                        function D20roll() {
+                        const D20number = Math.trunc(Math.random() * 20) + 1;
+                        document.getElementById('D20in').value = D20number;
+                    }
+                    </script>
+
+    </header>
+
+</body>
+</html>
