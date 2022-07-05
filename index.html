@@ -14,7 +14,6 @@
                 <input
                     type="text"
                     id="D4in"
-                    onclick="D4roll();"
                     readonly="readonly"
                     placeholder="1-4" />
                     
@@ -105,7 +104,24 @@
                     }
                     </script>
 
+                    <br>
+                    <br>
+
+<button class="button-85" onclick="reset();">Clear
+<script>
+    function reset() {
+         document.getElementById('D4in').value = '';
+        document.getElementById('D6in').value = '';
+        document.getElementById('D8in').value = '';
+        document.getElementById('D10in').value = '';
+        document.getElementById('D12in').value = '';
+        document.getElementById('D20in').value = '';
+}
+</script></button>
+
+
     </header>
 
 </body>
 </html>
+
