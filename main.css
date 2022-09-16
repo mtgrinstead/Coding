@@ -14,20 +14,27 @@
     font-family: "Fira sans", sans-serif;
   }
   
-  body {
+body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     min-height: 100vh;
     background: var(--dark);
     color: #FFF;
-  }
+}
   
   
-  header {
+.Dice {
     padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
-    margin: 0 auto;
+    margin: 10 auto;
+}
+
+.Character_Sheet {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    width: 100%;
+    margin: 10 auto;
 }
 
 header h1 {
